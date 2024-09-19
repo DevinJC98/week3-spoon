@@ -1,0 +1,56 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+}
+
+main
+{
+    display: flex;
+    border: 2px solid black;
+    
+}
+
+section
+{
+    
+   flex: 1;
+   
+   padding: 1%;
+   
+}
+#appetizers
+{
+background-color: lightgray;
+flex:2;
+}
+#mains
+{
+    background-color: lightgray;
+}
+#desserts
+{
+    background-color: lightgray;
+}
+
+header
+{
+    box-shadow: 0 3px 10px rgba(0,0,0,1);
+   
+    margin-bottom: 6%;
+
+    padding: 1%;
+    background-color: white;;
+}
+footer
+{
+    margin-top: 1%;
+    box-shadow: 3px -3px 10px rgba(0,0,0,1);
+    padding: 1%;
+    bottom: 0;
+    position: fixed;
+}

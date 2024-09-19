@@ -1,0 +1,30 @@
+*
+{
+    box-sizing: border-box;
+}
+main
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 4%;
+    margin: 2%;
+}
+section, header
+{
+ 
+ background-color: lightgray;
+ box-shadow: 0 0 15px 5px rgb(138, 1, 1);
+ padding: 2%;
+}
+
+header
+{
+    margin:2%
+    
+}
+
+body
+{
+    background-color: gray;
+}
